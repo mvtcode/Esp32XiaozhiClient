@@ -1,0 +1,23 @@
+{
+  "name": "Esp32XiaozhiClient",
+  "version": "1.0.0",
+  "description": "Thư viện Client XiaoZhi AI cho ESP32 kết nối WebSocket, hỗ trợ âm thanh Opus hai chiều, VAD, OTA activation. Hoàn toàn phi giao diện (UI-agnostic), chạy được trên thiết bị không màn hình (Loa AI), màn hình OLED đơn sắc, hoặc màn hình cảm ứng LVGL.",
+  "keywords": ["xiaozhi", "esp32", "ai-assistant", "voice-assistant", "opus", "websocket", "vad"],
+  "authors": [
+    {
+      "name": "ESP32 Project"
+    }
+  ],
+  "frameworks": "arduino",
+  "platforms": "espressif32",
+  "dependencies": {
+    "gilmaimon/ArduinoWebsockets": "^0.5.4",
+    "sh123/esp32_opus": "^1.0.3"
+  },
+  "export": {
+    "include": [
+      "include/*",
+      "src/*"
+    ]
+  }
+}
